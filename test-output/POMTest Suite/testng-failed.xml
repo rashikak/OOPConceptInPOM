@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [POMTest Suite]">
+  <test thread-count="5" name="POMTest(failed)">
+    <classes>
+      <class name="com.mytests.LoginTest">
+        <methods>
+          <include name="SetUpTest"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginPageHeaderTest"/>
+          <include name="verifyLoginPageTitleTest"/>
+          <include name="dologinTest"/>
+        </methods>
+      </class> <!-- com.mytests.LoginTest -->
+    </classes>
+  </test> <!-- POMTest(failed) -->
+</suite> <!-- Failed suite [POMTest Suite] -->
